@@ -1,10 +1,11 @@
 import { FC } from 'react';
 
-import { Hero } from 'sections';
+import { Hero, Services } from 'sections';
 
 const Home: FC = () => (
   <>
     <Hero />
+    <Services />
   </>
 );
 
