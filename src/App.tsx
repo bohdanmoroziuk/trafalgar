@@ -1,9 +1,12 @@
 import { FC } from 'react';
 
+import GlobalStyle from 'styles/global';
+
 const App: FC = () => (
-  <div>
-    Trafalgar
-  </div>
+  <>
+    <GlobalStyle />
+    
+  </>
 );
 
 export default App;
