@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { Hero, Services, Apps, Blog } from 'sections';
+import { Hero, Services, Apps, Blog, Footer } from 'sections';
 
 const Home: FC = () => (
   <>
@@ -8,6 +8,7 @@ const Home: FC = () => (
     <Services />
     <Apps />
     <Blog />
+    <Footer />
   </>
 );
 

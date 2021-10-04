@@ -1,14 +1,12 @@
-import { Button } from 'components';
 import { FC } from 'react';
+
+import { Button, Brand } from 'components';
 
 import { 
   Section, 
   Navbar, 
   Nav, 
   NavItem, 
-  Brand, 
-  BrandIcon, 
-  BrandText,
   Content,
   Title,
   Banner,
@@ -20,10 +18,7 @@ import BannerImage from 'assets/images/trafalgar-header.png';
 const Hero: FC = () => (
   <Section>
     <Navbar>
-      <Brand>
-        <BrandIcon>T</BrandIcon>
-        <BrandText>Trafalgar</BrandText>
-      </Brand>
+      <Brand text="Trafalgar" />
       <Nav>
         <NavItem isActive>Home</NavItem>
         <NavItem>Find a doctor</NavItem>
