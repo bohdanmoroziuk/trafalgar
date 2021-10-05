@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/trafalgar/static/js/main.13ed7653.chunk.js",
+    "main.js.map": "/trafalgar/static/js/main.13ed7653.chunk.js.map",
+    "runtime-main.js": "/trafalgar/static/js/runtime-main.23f66412.js",
+    "runtime-main.js.map": "/trafalgar/static/js/runtime-main.23f66412.js.map",
+    "static/css/2.679831fc.chunk.css": "/trafalgar/static/css/2.679831fc.chunk.css",
+    "static/js/2.c18932ab.chunk.js": "/trafalgar/static/js/2.c18932ab.chunk.js",
+    "static/js/2.c18932ab.chunk.js.map": "/trafalgar/static/js/2.c18932ab.chunk.js.map",
+    "static/js/3.811c148b.chunk.js": "/trafalgar/static/js/3.811c148b.chunk.js",
+    "static/js/3.811c148b.chunk.js.map": "/trafalgar/static/js/3.811c148b.chunk.js.map",
+    "index.html": "/trafalgar/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/trafalgar/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.c18932ab.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.c18932ab.chunk.js.LICENSE.txt",
+    "static/media/avatar-1.f8508dd3.png": "/trafalgar/static/media/avatar-1.f8508dd3.png",
+    "static/media/disease-detection.75a101a6.png": "/trafalgar/static/media/disease-detection.75a101a6.png",
+    "static/media/healthcare-providers.9b3c62e6.png": "/trafalgar/static/media/healthcare-providers.9b3c62e6.png",
+    "static/media/herbal-medicines.f1971b78.png": "/trafalgar/static/media/herbal-medicines.f1971b78.png",
+    "static/media/mobile-apps.28c6cc14.png": "/trafalgar/static/media/mobile-apps.28c6cc14.png",
+    "static/media/natural-care.41c2714d.png": "/trafalgar/static/media/natural-care.41c2714d.png",
+    "static/media/trafalgar-header.436b92bd.png": "/trafalgar/static/media/trafalgar-header.436b92bd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23f66412.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.c18932ab.chunk.js",
+    "static/js/main.13ed7653.chunk.js"
+  ]
+}
