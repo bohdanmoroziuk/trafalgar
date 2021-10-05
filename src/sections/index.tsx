@@ -1,3 +1,4 @@
+export { default as Testimonials } from 'sections/testimonials';
 export { default as Services } from 'sections/services';
 export { default as Footer } from 'sections/footer';
 export { default as Hero } from 'sections/hero';

@@ -1,3 +1,6 @@
+export { default as TestimonialsSlider } from 'components/testimonials-slider';
+export { default as TestimonialSlide } from 'components/testimonial-slide';
+export { default as TestimonialCard } from 'components/testimonial-card';
 export { default as ServiceCard } from 'components/service-card';
 export { default as ArticleCard } from 'components/article-card';
 export { default as Container } from 'components/container';
