@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/trafalgar/static/js/main.13ed7653.chunk.js",
-    "main.js.map": "/trafalgar/static/js/main.13ed7653.chunk.js.map",
-    "runtime-main.js": "/trafalgar/static/js/runtime-main.23f66412.js",
-    "runtime-main.js.map": "/trafalgar/static/js/runtime-main.23f66412.js.map",
+    "main.js": "/trafalgar/static/js/main.8b8022ee.chunk.js",
+    "main.js.map": "/trafalgar/static/js/main.8b8022ee.chunk.js.map",
+    "runtime-main.js": "/trafalgar/static/js/runtime-main.4127eebe.js",
+    "runtime-main.js.map": "/trafalgar/static/js/runtime-main.4127eebe.js.map",
     "static/css/2.679831fc.chunk.css": "/trafalgar/static/css/2.679831fc.chunk.css",
-    "static/js/2.c18932ab.chunk.js": "/trafalgar/static/js/2.c18932ab.chunk.js",
-    "static/js/2.c18932ab.chunk.js.map": "/trafalgar/static/js/2.c18932ab.chunk.js.map",
-    "static/js/3.811c148b.chunk.js": "/trafalgar/static/js/3.811c148b.chunk.js",
-    "static/js/3.811c148b.chunk.js.map": "/trafalgar/static/js/3.811c148b.chunk.js.map",
+    "static/js/2.cc4841d3.chunk.js": "/trafalgar/static/js/2.cc4841d3.chunk.js",
+    "static/js/2.cc4841d3.chunk.js.map": "/trafalgar/static/js/2.cc4841d3.chunk.js.map",
+    "static/js/3.8f6a0e36.chunk.js": "/trafalgar/static/js/3.8f6a0e36.chunk.js",
+    "static/js/3.8f6a0e36.chunk.js.map": "/trafalgar/static/js/3.8f6a0e36.chunk.js.map",
     "index.html": "/trafalgar/index.html",
     "static/css/2.679831fc.chunk.css.map": "/trafalgar/static/css/2.679831fc.chunk.css.map",
-    "static/js/2.c18932ab.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.c18932ab.chunk.js.LICENSE.txt",
+    "static/js/2.cc4841d3.chunk.js.LICENSE.txt": "/trafalgar/static/js/2.cc4841d3.chunk.js.LICENSE.txt",
     "static/media/avatar-1.f8508dd3.png": "/trafalgar/static/media/avatar-1.f8508dd3.png",
     "static/media/disease-detection.75a101a6.png": "/trafalgar/static/media/disease-detection.75a101a6.png",
     "static/media/healthcare-providers.9b3c62e6.png": "/trafalgar/static/media/healthcare-providers.9b3c62e6.png",
@@ -21,9 +21,9 @@
     "static/media/trafalgar-header.436b92bd.png": "/trafalgar/static/media/trafalgar-header.436b92bd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.23f66412.js",
+    "static/js/runtime-main.4127eebe.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.c18932ab.chunk.js",
-    "static/js/main.13ed7653.chunk.js"
+    "static/js/2.cc4841d3.chunk.js",
+    "static/js/main.8b8022ee.chunk.js"
   ]
 }
