@@ -1,5 +1,8 @@
 import { FC } from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+
 import {
   Card,
   CardImage,
@@ -7,10 +10,8 @@ import {
   CardTitle,
   CardText,
   CardLink,
-  CardLinkIcon,
+  CardLinkIconWrapper,
 } from 'components/article-card/styles';
-
-import ArrowRightIcon from 'assets/images/arrow-right.png';
 
 export interface ArticleCardProps {
   image: string;
@@ -26,7 +27,10 @@ const ArticleCard: FC<ArticleCardProps> = ({ image, title, text, link }) => (
       <CardTitle>{title}</CardTitle>
       <CardText>{text}</CardText>
       <CardLink href={link}>
-        Read more <CardLinkIcon src={ArrowRightIcon} alt="arrow right icon" />
+        Read more
+        <CardLinkIconWrapper>
+          <FontAwesomeIcon icon={faLongArrowAltRight} size="lg" />
+        </CardLinkIconWrapper>
       </CardLink>
     </CardContent>
   </Card>

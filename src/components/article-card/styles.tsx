@@ -36,8 +36,10 @@ export const CardLink = styled.a`
   line-height: 28px;
   color: #4089ED;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 `;
 
-export const CardLinkIcon = styled.img`
-  margin-left: 0.5rem;
+export const CardLinkIconWrapper = styled.div`
+  margin-left: 1rem;
 `;

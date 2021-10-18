@@ -54,3 +54,7 @@ export const CardDescription = styled.p`
   color: #7D7987;
   padding-bottom: 36px;
 `;
+
+export const ButtonIconWrapper = styled.span`
+  margin-left: 1rem;
+`;

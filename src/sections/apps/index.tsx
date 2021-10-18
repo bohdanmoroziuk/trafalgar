@@ -1,7 +1,8 @@
 import { FC } from 'react';
 
-import { AppCard } from 'components';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
+import { AppCard } from 'components';
 import { Section } from 'sections/apps/styles';
 
 import MobileAppImage from 'assets/images/apps/mobile-apps.png';
@@ -12,12 +13,15 @@ const apps = [
     image: HealthcareProvidersImage,
     title: 'Leading healthcare providers',
     description: 'Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver',
+    buttonLabel: 'Learn more',
   },
   {
     image: MobileAppImage,
     title: 'Download our mobile apps',
     description: 'Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely',
     isReversed: true,
+    buttonLabel: 'Download',
+    buttonIcon: faDownload,
   },
 ];
 

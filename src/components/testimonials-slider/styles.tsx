@@ -4,6 +4,10 @@ export interface PointProps {
   isActive?: boolean;
 }
 
+export interface ArrowProps {
+  isActive?: boolean;
+}
+
 export const Slider = styled.div``;
 
 export const SlidesWrapper = styled.div``;
@@ -14,8 +18,10 @@ export const Controls = styled.div`
   margin-top: 42px;
 `;
 
-export const Arrow = styled.img`
-  height: 20px;
+export const Arrow = styled.div<ArrowProps>`
+cursor: pointer;
+  color: #5B9BF3;
+  opacity: ${({ isActive }) => isActive ? 1 : 0.3};
 `;
 
 export const Points = styled.div`
@@ -25,6 +31,7 @@ export const Points = styled.div`
 `;
 
 export const Point = styled.div<PointProps>`
+  cursor: pointer;
   width: 10px;
   height: 10px;
   background: #5B9BF3;

@@ -1,5 +1,8 @@
 import { FC } from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 import { TestimonialSlide, TestimonialCard } from 'components';
 
 import {
@@ -10,9 +13,6 @@ import {
   Point,
   Points,
 } from 'components/testimonials-slider/styles';
-
-import ArrowLeft from 'assets/images/slider/arrow-left.png';
-import ArrowRightActive from 'assets/images/slider/arrow-right-active.png';
 
 export interface TestimonialsSliderProps {
   slides: {
@@ -38,14 +38,18 @@ const TestimonialsSlider: FC<TestimonialsSliderProps> = ({ slides }) => (
       ))}
     </SlidesWrapper>
     <Controls>
-      <Arrow src={ArrowLeft} alt="" />
+      <Arrow>
+        <FontAwesomeIcon icon={faArrowLeft} size="lg" />
+      </Arrow>
       <Points>
         <Point isActive />
         <Point />
         <Point />
         <Point />
       </Points>
-      <Arrow src={ArrowRightActive} alt="" />
+      <Arrow isActive>
+        <FontAwesomeIcon icon={faArrowRight} size="lg" />
+      </Arrow>
     </Controls>
   </Slider>
 );
