@@ -10,12 +10,12 @@ export interface TextProps {
 
 const getIconVariantStyle = ({ variant = 'primary' }: IconProps) => ({
   primary: css`
-    background-color: #458FF6;
+    background-color: ${({ theme }) => theme.colors.primary};
     color: #fff;
   `,
   secondary: css`
     background-color: #fff;
-    color: #458FF6;
+    color: ${({ theme }) => theme.colors.primary};
   `,
 }[variant]);
 

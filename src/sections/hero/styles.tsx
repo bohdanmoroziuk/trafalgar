@@ -50,7 +50,7 @@ export const BrandIcon = styled.div`
   font-weight: bold;
   font-size: 26px;
   line-height: 33px;
-  background-color: #458FF6;
+  background-color: ${({ theme }) => theme.colors.primary};
   display: flex;
   align-items: center;
   justify-content: center;

@@ -15,20 +15,20 @@ export interface IconContainerProps {
 const containerVariantStyles = ({ variant = 'primary' }: ContainerProps) => ({
   'primary': css`
     color: #FFFFFF;
-    background-color: #458FF6;
+    background-color: ${({ theme }) => theme.colors.primary};
 
     &:hover {
-      color: #458FF6;
+      color: ${({ theme }) => theme.colors.primary};
       background-color: #fff;      
     }
   `,
   'secondary': css`
-    color: #458FF6;
+    color: ${({ theme }) => theme.colors.primary};
     background-color: #fff;
 
     &:hover {
       color: #FFFFFF;
-      background-color: #458FF6;
+      background-color: ${({ theme }) => theme.colors.primary};
     }
   `,
 }[variant]);
@@ -37,7 +37,7 @@ export const Container = styled.button<ContainerProps>`
   font-weight: bold;
   font-size: 18px;
   padding: 16px 40px;
-  border: 1.4px solid #458FF6;
+  border: 1.4px solid ${({ theme }) => theme.colors.primary};
   border-radius: 55px;
   cursor: pointer;
   transition: all 220ms ease-in-out;

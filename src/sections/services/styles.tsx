@@ -24,7 +24,7 @@ export const SectionTitle = styled.h3`
     transform: translateX(50%);
     width: 56px;
     height: 2px;
-    background-color: #458FF6;
+    background-color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
